@@ -1,4 +1,3 @@
-// panierActions.js
 
 export const addPanier = ({ name, price, quantity }) => ({
     type: 'ADD_PANIER',

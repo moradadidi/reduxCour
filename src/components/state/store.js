@@ -3,13 +3,14 @@ import counterReducer from "./counter/counterSlice";
 import usersReducer from "./users/usersSlice";
 import articleReducer from "./article/articleSlice";
 import panierReducer from "./panier/panierSlice";
-
+import studentsReducer from "./students/studentSlice";
 export const store = configureStore({
     reducer: {
         counter: counterReducer,
         users: usersReducer,
         article: articleReducer,
-        panier:panierReducer
+        panier:panierReducer,
+        students:studentsReducer
         
     },
 });
