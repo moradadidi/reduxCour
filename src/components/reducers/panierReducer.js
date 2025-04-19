@@ -9,6 +9,7 @@ const initialState = {
   ],
 };
 
+
 const panierReducer = (state = initialState, action) =>
   produce(state, draft => {
     switch (action.type) {

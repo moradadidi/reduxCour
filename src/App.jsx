@@ -5,6 +5,7 @@ import Cart from './components/Cart'
 import Counter from './components/Counter'
 import Panier from './components/Panier'
 import Students from './components/Students'
+import Students2 from './components/Students2'
 import Users from './components/Users'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
      {/* <Counter /> */}
      {/* <Users /> */}
-     <Students />
+     <Students2 />
      {/* <Cart /> */}
 
     </>
