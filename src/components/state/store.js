@@ -4,13 +4,16 @@ import usersReducer from "./users/usersSlice";
 import articleReducer from "./article/articleSlice";
 import panierReducer from "./panier/panierSlice";
 import studentsReducer from "./students/studentSlice";
+import carReducer from "../exercice3/slice/carSlice";
 export const store = configureStore({
     reducer: {
         counter: counterReducer,
         users: usersReducer,
         article: articleReducer,
         panier:panierReducer,
-        students:studentsReducer
+        students:studentsReducer,
+        car : carReducer,
+        
         
     },
 });

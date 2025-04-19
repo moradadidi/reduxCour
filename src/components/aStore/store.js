@@ -1,6 +1,6 @@
 // store.js
 import { createStore } from 'redux';
-import panierReducer from '../reducers/panierReducer';
+// import panierReducer from '../reducers/panierReducer';
 import studentReducer from '../reducers/studentsReducer';
 
 
